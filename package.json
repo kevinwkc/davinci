@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "chart.js": "^4.4.0",
+    "itertools": "^2.1.2",
+    "lodash": "^4.17.21",
+    "mathjs": "^12.0.0",
     "vue": "^3.3.4",
     "vue-chartjs": "^5.2.0",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",

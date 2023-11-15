@@ -1,4 +1,5 @@
-<script>
+<script setup>
+
 
 </script>
 
@@ -12,10 +13,10 @@
     </a>
   </div>
 
-  <router-link to="/">Home</router-link> | 
-  <router-link to="/detect">Visualization</router-link> | 
-  <router-link to="/ai">AI</router-link> | 
-  <router-link to="/tableau">Tableau</router-link>
+  <router-link to="/davinci">Home</router-link> | 
+  <router-link to="/davinci/detect">Visualization</router-link> | 
+  <router-link to="/davinci/ai">AI</router-link> | 
+  <router-link to="/davinci/tableau">Tableau</router-link>
   <router-view></router-view>
  
 </template>
