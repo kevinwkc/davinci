@@ -1,6 +1,13 @@
-<script setup>
-
-
+<script>
+export default {
+  mounted() {
+      let recaptchaScript = document.createElement('script')
+      recaptchaScript.setAttribute('src', 'https://static.elfsight.com/platform/platform.js')
+      recaptchaScript.setAttribute('data-use-service-core', '')
+      recaptchaScript.setAttribute('defer', '')
+      document.head.appendChild(recaptchaScript)
+    },
+}
 </script>
 
 <template>
@@ -19,6 +26,8 @@
   <router-link to="/davinci/tableau">Tableau</router-link>
   <router-view></router-view>
  
+  <br />
+  <div class="elfsight-app-5f3e8eb9-9103-490e-9999-e20aa4157dc7" data-elfsight-app-lazy></div>
 </template>
 
 <style scoped>
